@@ -39,13 +39,13 @@ class Car extends Vehicle {
 class VehicleMain {
     public static void main(String[] args) {
         Car c1 = new Car();
-        c1.setBrand("Toyota");
-        c1.setModel("Corolla");
-        c1.setNumDoors(4);
+        c1.setBrand("BMW");
+        c1.setModel("M4");
+        c1.setNumDoors(2);
 
         Car c2 = new Car();
-        c2.setBrand("Honda");
-        c2.setModel("Civic");
+        c2.setBrand("Tesla");
+        c2.setModel("Model S");
         c2.setNumDoors(4);
 
         System.out.println("Car 1 Brand: " + c1.getBrand());
