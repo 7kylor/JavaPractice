@@ -2,9 +2,9 @@
 
 class Student {
   String name;
-  int mark1, mark2, mark3, mark4;
+  float mark1, mark2, mark3, mark4;
 
-    void setValues(String name, int mark1, int mark2, int mark3, int mark4) {
+  void setValues(String name, float mark1, float mark2, float mark3, float mark4) {
       this.name = name;
       this.mark1 = mark1;
       this.mark2 = mark2;
@@ -12,12 +12,12 @@ class Student {
       this.mark4 = mark4;
     }
 
-    int calculateTotalMarks() {
+    float calculateTotalMarks() {
       return mark1 + mark2 + mark3 + mark4;
     }
 
     String calculateGrade() {
-      int totalMarks = calculateTotalMarks();
+      float totalMarks = calculateTotalMarks();
       if (totalMarks > 90) {
         return "A";
       } else if (totalMarks > 70) {
@@ -47,15 +47,15 @@ class StudentOperations {
     s1.display();
 
     Student s2 = new Student();
-    s2.setValues("Taher", 70, 90, 80, 90);
+    s2.setValues("Taher", 30, 10, 10, 0);
     s2.display();
 
     Student s3 = new Student();
-    s3.setValues("Taher", 10, 40, 50, 80);
+    s3.setValues("Taher", 10, 10, 21, 10);
     s3.display();
 
       Student s4 = new Student();
-      s4.setValues("Taher", 70, 60, 30, 90);
+      s4.setValues("Taher", 40, 10, 30, 10);
       s4.display();
     }
   }
