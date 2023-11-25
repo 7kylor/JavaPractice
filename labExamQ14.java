@@ -61,6 +61,8 @@ class BankAccountMain {
         System.out.println("Balance: " + s.getBalance());
         s.calculateInterest();
 
+        System.out.println("----------------");
+
         CurrentAccount c = new CurrentAccount();
         c.setAccountId("09800000000001");
         c.setAccountType("Current");
