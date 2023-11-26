@@ -12,6 +12,7 @@ class Circle {
         return 3.14 * radius * radius;
     }
 
+    // i'd use Math.PI instead of 3.14 but whatever
     double circumference() {
         return 2 * 3.14 * radius;
     }
@@ -25,4 +26,3 @@ class CircleOperations {
         System.out.println("Circumference: " + c.circumference());
     }
 }
-
