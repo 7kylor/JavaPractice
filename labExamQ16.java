@@ -50,11 +50,19 @@ class BoxMain {
         Box b = new Box();
         b.setValues();
         b.display();
+        System.out.println("----------");
 
         b.setValues(2.0, 2.0, 2.0);
         b.display();
+        System.out.println("----------");
+
+        b.setValues(2.0, 3.0, 4.0);
+        b.display();
+        System.out.println("----------");
 
         b.setValues(3.0);
         b.display();
+        System.out.println("----------");
+
     }
 }
