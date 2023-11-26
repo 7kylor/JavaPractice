@@ -22,7 +22,6 @@
 
 interface Bill {
     double taxRate = 0.5;
-    double discountRate = 0.1;
 
     double calcTax(double price);
 
