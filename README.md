@@ -16,4 +16,4 @@ Polymorphism- Constructor Overloading and Method Overloading
 Abstraction- Abstract Classes and Interfaces
 
 
- >> Create a pull request for any changes or new solutions you want to add to this repo. I will happily merge it after reviewing it.
+ Create a pull request for any changes or new solutions you want to add to this repo. I will happily merge it after reviewing it.
