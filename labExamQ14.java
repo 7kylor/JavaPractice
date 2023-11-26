@@ -1,4 +1,4 @@
-// 14. Create an abstract class called BankAccount that provides a common structure for all types of
+// Q14. Create an abstract class called BankAccount that provides a common structure for all types of
 // bank accounts. It should have the data members, account id and account type, balance
 // amount.It should have two methods to initialize the values of data members and display the
 // value of data members. It should also include an abstract method calculateIntereset() to
