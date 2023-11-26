@@ -37,6 +37,7 @@ class Circle extends Shape {
         System.out.println("Color: " + color);
         System.out.println("Radius: " + radius);
         System.out.println("Area: " + area);
+        System.out.println("Calculated Area: " + calculateArea());
     }
 }
 
