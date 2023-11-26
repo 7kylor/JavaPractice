@@ -28,6 +28,7 @@ class Circle extends Shape {
         this.radius = radius;
     }
 
+    // i'd use Math.PI instead of 3.14 but whatever
     void calculateArea() {
         area = 3.14 * radius * radius;
     }
