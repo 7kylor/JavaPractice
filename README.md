@@ -1,4 +1,4 @@
-# JavaPractice Solutions >> all written & tested by me.
+# JavaPractice Solutions
 # happy coding :)
 
 All questions are from mec learn
