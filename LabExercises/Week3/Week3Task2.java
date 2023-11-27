@@ -9,3 +9,30 @@
 // Create an instance/object of the Employee class. Call the input(), display()
 // methods using the
 // instance/object created.
+
+class Employee {
+    String name, position;
+    int id;
+    double salary;
+
+    void input(String name, int id, double salary) {
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Salary: " + salary);
+    }
+
+}
+
+class EmployeeMain {
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+        emp.input("Taher", 133, 1700.0);
+        emp.display();
+    }
+}
