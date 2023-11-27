@@ -1,4 +1,6 @@
+package MockTest;
 // Q1. Write a program in Java to define a class Triangle having 3 instance
+
 // variables namely base, height ,area
 // and 2 methods namely Assign() to assign values to the instance variables by
 // getting it from main class and

@@ -9,6 +9,7 @@
 // parameterized constructor. Display the information of the two employees by
 // calling the display method.
 
+
 class Employee {
     String empName;
     int empID;

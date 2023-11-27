@@ -1,3 +1,4 @@
+package MockTest;
 // Q3 Given  an  interface  called  Tax  with  a  data  member  taxRate  that  has  a  value  of  0.05  and  member 
 
 // functions/methods calcTax() to calculate the income tax, calcNet() to calculate the net salary and display()  to display the gross salary, the income tax and the net salary. 
