@@ -1,25 +1,20 @@
-# JavaPractice Solutions
-# happy coding :)
+# Java Practice Solutions
 
-All questions are from Mec learn
-Lab Exam Fall 2023 MEC 
+This repository contains solutions for the lab exam practice and mock exam questions from the MEC Learn course COMP 20043. It also includes solutions for the slides from each chapter/week.
 
-COMP 20043 Lab Exam Date and Time
+## Exam Information
 
-Session C : 28/11/23(Tuesday)  3.00PM to 4.30 PM @ General Lab.
-Session A : 30/11/23(Thursday) 1.00PM to 2.30 PM @ General Lab
+- Lab Exam Date and Time:
+    - Session C: 28/11/23 (Tuesday) 3:00 PM to 4:30 PM @ General Lab.
+    - Session A: 30/11/23 (Thursday) 1:00 PM to 2:30 PM @ General Lab.
 
-TOPICS: 
-Encapsulation 
-Inheritance 
-Polymorphism- Constructor Overloading and Method Overloading
-Abstraction- Abstract Classes and Interfaces
+## Topics Covered
 
-included all the solutions for questions from the lab exam practice and the solutions for the mock exam 
+- Encapsulation
+- Inheritance
+- Polymorphism (Constructor Overloading and Method Overloading)
+- Abstraction (Abstract Classes and Interfaces)
 
+Feel free to create a pull request if you have any changes or new solutions to add. I will review and merge them.
 
->> update: i have added the solutions for the slides as well from each chapter / week
-
- Create a pull request for any changes or new solutions you want to add to this repo. I will happily merge it after reviewing it.
-
-
+Happy coding! 😊
