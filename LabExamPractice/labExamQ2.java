@@ -2,11 +2,9 @@
 
 class Student {
   String name;
-  int mark1, mark2, mark3, mark4;
-  int totalMarks;
-  char grade;
+  float mark1, mark2, mark3, mark4;
 
-  void setValues(String name, int mark1, int mark2, int mark3, int mark4) {
+  void setValues(String name, float mark1, float mark2, float mark3, float mark4) {
       this.name = name;
       this.mark1 = mark1;
       this.mark2 = mark2;
@@ -14,43 +12,38 @@ class Student {
       this.mark4 = mark4;
     }
 
-    int calculateTotalMarks() {
-      totalMarks = mark1 + mark2 + mark3 + mark4;
-      return totalMarks;
+    float calculateTotalMarks() {
+      return mark1 + mark2 + mark3 + mark4;
     }
 
-    char calculateGrade() {
-      if (totalMarks > 90) {
-        grade = 'A';
-      } else if (totalMarks > 70) {
-        grade = 'B';
-      } else if (totalMarks > 50) {
-        grade = 'C';
+    String calculateGrade() {
+      float total = calculateTotalMarks();
+      if (total > 90) {
+        return "A";
+      } else if (total >= 70) {
+        return "B";
+      } else if (total >= 50) {
+        return "C";
       } else {
-        grade = 'F';
+        return "F";
       }
-      return grade;
       }
 
       void display() {
         System.out.println("Name: " + name);
-        System.out.println("Total Marks: " + totalMarks);
-        System.out.println("Grade: " + grade);
+        System.out.println("Total Marks: " + calculateTotalMarks());
+        System.out.println("Grade: " + calculateGrade());
       }
 }
 
 class StudentOperations {
   public static void main(String[] args) {
-    Student s1 = new Student();
-    s1.setValues("Taher", 10, 20, 30, 40);
-    s1.calculateTotalMarks();
-    s1.calculateGrade();
-    s1.display();
+    Student student1 = new Student();
+    student1.setValues("Taher", 85, 90, 80, 70);
+    student1.display();
 
-    Student s2 = new Student();
-    s2.setValues("Taher", 90, 80, 70, 60);
-    s2.calculateTotalMarks();
-    s2.calculateGrade();
-    s2.display();
+    Student student2 = new Student();
+    student2.setValues("Test", 60, 70, 65, 75);
+    student2.display();
     }
   }
