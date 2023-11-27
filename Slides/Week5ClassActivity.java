@@ -1,11 +1,13 @@
-// Q14. Create an abstract class called BankAccount that provides a common structure for all types of
-// bank accounts. It should have the data members, account id and account type, balance
-// amount.It should have two methods to initialize the values of data members and display the
-// value of data members. It should also include an abstract method calculateIntereset() to
-// calculate and display the interest, which is specific to each account type.
-// Create subclasses SavingsAccount and CurrentAccount that extends BankAccount. They should
-// provide implementations for the calculateIntereset() method, tailored to the specific account
-// types using the formula given below SavingsAccountInterest = 2% of balance amount , CurrentAccountInterest = 0% of balance amount. In the Main class, create Objects of SavingsAccount and CurrentAccount, and call the get and set methods and calculateInterest() method to calculate the interest for each account type.
+//  Create an abstract class called BankAccount that provides a common structure for all types of bank accounts. It should have the data members, account id and account type , balance amount.It should have
+// set and get methods to set and get the values of data members. It should also include an abstract method calculateIntereset() to calculate
+// Interest, which is specific to each account type.
+// • Create subclasses SavingsAccount and CurrentAccount that extends
+// BankAccount. They should provide implementations for the calculateIntereset() method, tailored to the specific account types using the formula given below
+// • SavingsAccountInterest = 2% of balance amount. ,
+// CurrentAccountInterest = 0% of balance amount.
+// • In the Main class, create Objects of SavingsAccount and
+// CurrentAccount, and call the get and set methods and calculateInterest() method to calculate the interest for each account
+// type.
 
 abstract class BankAccount {
     private int accountId;
