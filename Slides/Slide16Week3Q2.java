@@ -7,7 +7,7 @@ package Slides;
 // In a separate class, create an instance of the Calculator class, perform various addition
 // operations using the overloaded add methods, and display the results.
 
-class calcualtor {
+class Calculator {
     double result;
 
     void multiply(double a, double b) {
@@ -32,9 +32,9 @@ class calcualtor {
 
 }
 
-class calculatorMain {
+class CalculatorMain {
     public static void main(String[] args) {
-        calcualtor c = new calcualtor();
+        Calculator c = new Calculator();
         c.multiply(1.0, 2.0);
         c.display();
         c.multiply(1.0, 2.0, 3.0);
