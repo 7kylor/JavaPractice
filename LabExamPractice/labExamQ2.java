@@ -2,9 +2,11 @@
 
 class Student {
   String name;
-  float mark1, mark2, mark3, mark4;
+  int mark1, mark2, mark3, mark4;
+  int totalMarks;
+  char grade;
 
-  void setValues(String name, float mark1, float mark2, float mark3, float mark4) {
+  void setValues(String name, int mark1, int mark2, int mark3, int mark4) {
       this.name = name;
       this.mark1 = mark1;
       this.mark2 = mark2;
@@ -12,50 +14,43 @@ class Student {
       this.mark4 = mark4;
     }
 
-    float calculateTotalMarks() {
-      return mark1 + mark2 + mark3 + mark4;
+    int calculateTotalMarks() {
+      totalMarks = mark1 + mark2 + mark3 + mark4;
+      return totalMarks;
     }
 
-    String calculateGrade() {
-      float totalMarks = calculateTotalMarks();
+    char calculateGrade() {
       if (totalMarks > 90) {
-        return "A";
+        grade = 'A';
       } else if (totalMarks > 70) {
-        return "B";
+        grade = 'B';
       } else if (totalMarks > 50) {
-        return "C";
+        grade = 'C';
       } else {
-        return "F";
+        grade = 'F';
       }
+      return grade;
       }
 
       void display() {
         System.out.println("Name: " + name);
-        System.out.println("Mark 1: " + mark1);
-        System.out.println("Mark 2: " + mark2);
-        System.out.println("Mark 3: " + mark3);
-        System.out.println("Mark 4: " + mark4);
-        System.out.println("Total Marks: " + calculateTotalMarks());
-        System.out.println("Grade: " + calculateGrade());
+        System.out.println("Total Marks: " + totalMarks);
+        System.out.println("Grade: " + grade);
       }
 }
 
 class StudentOperations {
   public static void main(String[] args) {
     Student s1 = new Student();
-    s1.setValues("Taher", 100, 100, 100, 100);
+    s1.setValues("Taher", 10, 20, 30, 40);
+    s1.calculateTotalMarks();
+    s1.calculateGrade();
     s1.display();
 
     Student s2 = new Student();
-    s2.setValues("Taher", 30, 10, 10, 0);
+    s2.setValues("Taher", 90, 80, 70, 60);
+    s2.calculateTotalMarks();
+    s2.calculateGrade();
     s2.display();
-
-    Student s3 = new Student();
-    s3.setValues("Taher", 10, 10, 21, 10);
-    s3.display();
-
-      Student s4 = new Student();
-      s4.setValues("Taher", 40, 10, 30, 10);
-      s4.display();
     }
   }

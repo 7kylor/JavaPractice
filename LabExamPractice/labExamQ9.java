@@ -8,49 +8,50 @@
 // getBonus() method should display the values of Bonus. Create a main class in
 // which you need to create an 2 objects of class manager . Call all the
 // functions of both parent and child classes to check their functionalities.
+class Student {
+    String name;
+    int mark1, mark2, mark3, mark4;
 
-class Employee {
-    String empname;
-    int empid;
-    double salary;
-
-    void setData(String empname, int empid, double salary) {
-        this.empname = empname;
-        this.empid = empid;
-        this.salary = salary;
+    void setValues(String name, int mark1, int mark2, int mark3, int mark4) {
+        this.name = name;
+        this.mark1 = mark1;
+        this.mark2 = mark2;
+        this.mark3 = mark3;
+        this.mark4 = mark4;
     }
 
-    void getData() {
-        System.out.println("Employee Name: " + empname);
-        System.out.println("Employee ID: " + empid);
-        System.out.println("Employee Salary: " + salary);
+    int calculateTotalMarks() {
+        return mark1 + mark2 + mark3 + mark4;
+    }
+
+    String calculateGrade() {
+        int total = calculateTotalMarks();
+        if (total > 90) {
+            return "A";
+        } else if (total >= 70) {
+            return "B";
+        } else if (total >= 50) {
+            return "C";
+        } else {
+            return "F";
+        }
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Total Marks: " + calculateTotalMarks());
+        System.out.println("Grade: " + calculateGrade());
     }
 }
 
-class Manager extends Employee {
-    double bonus;
-
-    void setBonus(double bonus) {
-        this.bonus = bonus;
-    }
-
-    void getBonus() {
-        System.out.println("Employee Bonus: " + bonus);
-    }
-}
-
-class EmployeeMain {
+class StudentOperations {
     public static void main(String[] args) {
-        Manager m1 = new Manager();
-        m1.setData("Taher", 1234567890, 7000.0);
-        m1.setBonus(1000.0);
-        m1.getData();
-        m1.getBonus();
+        Student student1 = new Student();
+        student1.setValues("Taher", 85, 90, 80, 70);
+        student1.display();
 
-        Manager m2 = new Manager();
-        m2.setData("Taher", 1234567890, 3000.0);
-        m2.setBonus(999.0);
-        m2.getData();
-        m2.getBonus();
+        Student student2 = new Student();
+        student2.setValues("Taher", 60, 70, 65, 75);
+        student2.display();
     }
 }
