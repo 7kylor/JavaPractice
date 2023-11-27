@@ -18,4 +18,8 @@ Abstraction- Abstract Classes and Interfaces
 included all the solutions for questions from the lab exam practice and the solutions for the mock exam 
 
 
+>> update: i have added the solutions for the slides as well from each chapter / week
+
  Create a pull request for any changes or new solutions you want to add to this repo. I will happily merge it after reviewing it.
+
+
