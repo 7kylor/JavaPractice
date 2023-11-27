@@ -1,6 +1,4 @@
-package Slides;
 // Design a Java program using the concept of method overloading in a class named
-
 // Calculator. The class should have: Attributes to store calculation results. Multiple
 // multiply methods that can multiply two numbers, three numbers, integer numbers and
 // floating point numbers. A method to display the calculated result.

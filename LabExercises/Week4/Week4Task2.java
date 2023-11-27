@@ -1,18 +1,7 @@
 // Create a Parent class named Employee. The class should have three instance
-// variables:
-// empname, empid and salary. Also Two methods: getData() and setData() .
-// setData() function
-// should assign some value for the variables using parameters. getData()
-// function should display
-// the values of the variables. Create a derived class named Manager of Employee
-// class. The class
-// should have One variable: Bonus. Also two methods : getBonus() and setBonus()
-// . setBonus
-// function should set the values for Bonus. getBonus() method should display
-// the values of Bonus.
-// Create a main class in which you need to create an 2 objects of class manager
-// .Call all the
-// functions of both parent and child classes to check their functionalities.
+// variables: empname, empid and salary. Also Two methods: getData() and setData() . setData() function should assign some value for the variables using parameters. getData() function should display the values of the variables. Create a derived class named Manager of Employee class. The class should have One variable: Bonus. Also two methods : getBonus() and setBonus() . setBonus function should set the values for Bonus. getBonus() method should display
+// the values of Bonus. Create a main class in which you need to create an 2 objects of class manager
+// .Call all the functions of both parent and child classes to check their functionalities.
 
 class Employee {
     String empname;

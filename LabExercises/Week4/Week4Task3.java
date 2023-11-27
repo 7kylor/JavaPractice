@@ -1,9 +1,5 @@
 // Create  a  class  called  "Employee"  with  attributes  empName,  empID,  and  salary.  Implement  the 
-// concept of constructor overloading by having a parameterized constructor and non- 
-// parameterized constructor to initialize the class attributes. The class should also have a method 
-// display to print the value of the attributes. In a separate class, create two instances/objects of the Employee class, one using parameterized 
-// constructor and other using non parameterized constructor. Display the information of the two 
-// employees by calling the display method.
+// concept of constructor overloading by having a parameterized constructor and non-  parameterized constructor to initialize the class attributes. The class should also have a method  display to print the value of the attributes. In a separate class, create two instances/objects of the Employee class, one using parameterized constructor and other using non parameterized constructor. Display the information of the two  employees by calling the display method.
 
 class Employee {
     String empName;

@@ -1,13 +1,7 @@
-package MockTest;
-// Q1. Write a program in Java to define a class Triangle having 3 instance
-
-// variables namely base, height ,area
-// and 2 methods namely Assign() to assign values to the instance variables by
-// getting it from main class and
-// calcarea() to calculate and return the result to main class . Call all the
-// methods of class Triangle using the
-// object created from main class. The objects should pass parameters required
-// to triangle class.
+// Q1. Write a program in Java to define a class Triangle having 3 instance variables namely base, height ,area
+// and 2 methods namely Assign() to assign values to the instance variables by getting it from main class and
+// calcarea() to calculate and return the result to main class . Call all the methods of class Triangle using the
+// object created from main class. The objects should pass parameters required to triangle class.
 
 class Triangle {
     double base, height, area;

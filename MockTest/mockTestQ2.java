@@ -1,7 +1,5 @@
-package MockTest;
 // Q2 Write a program in Java to demonstrate the concept of constructor  overloading. The program should 
-
-// have comments regarding the same. 
+// have comments regarding the same.
 
 class Computer {
     String brand;

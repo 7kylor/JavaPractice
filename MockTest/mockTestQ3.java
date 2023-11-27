@@ -1,13 +1,8 @@
-package MockTest;
 // Q3 Given  an  interface  called  Tax  with  a  data  member  taxRate  that  has  a  value  of  0.05  and  member 
-
 // functions/methods calcTax() to calculate the income tax, calcNet() to calculate the net salary and display()  to display the gross salary, the income tax and the net salary. 
-
 //Note: Tax Amount is calculated as salary * taxrate.Net salary is calculated as gross salary-Tax Amount. 
-
 // Now given a class called Salary with the data member gSalary and a constructor to assign value to the data  member using parameter passing. Show how the class will be implemented while also implementing the 
 // interface Tax. 
-
 // >> note this question is smiler to labExamQ17.java //
 
 interface Tax {
