@@ -6,8 +6,7 @@
 // pass or fail based on grade).
 // Additionally, create another class named StudentOperations that contains the
 // main method. Within the
-// main method:
-// Create objects of the Student class for multiple students.
+// main method: Create objects of the Student class for multiple students.
 // Set their names, ages, and grades.
 // Calculate and display the status of each student (pass or fail).
 
