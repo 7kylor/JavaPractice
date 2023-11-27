@@ -17,3 +17,38 @@
 // Calculate and display the area of the rectangle using the area method.
 // Calculate and display the perimeter of the rectangle using the perimeter
 // method.
+
+class Rectangle {
+    double length;
+    double width;
+
+    void assignValues(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    double area() {
+        return length * width;
+    }
+
+    double perimeter() {
+        return 2 * (length + width);
+    }
+
+    void printArea() {
+        System.out.println("Area: " + area());
+    }
+
+    void printPerimeter() {
+        System.out.println("Perimeter: " + perimeter());
+    }
+}
+
+class RectangleOperations {
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle();
+        r.assignValues(5.0, 10.0);
+        r.printArea();
+        r.printPerimeter();
+    }
+}
