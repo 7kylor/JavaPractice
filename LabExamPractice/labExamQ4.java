@@ -34,7 +34,7 @@ class BankAccount {
     }
 }
 
-public class labExamQ4 {
+class BankAccountMain {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(1000, 123456789);
         System.out.println("Account Number: " + account.getAccountNumber());

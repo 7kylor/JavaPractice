@@ -6,18 +6,19 @@
 // methods using the instance/object created.
 
 class Employee {
-    String name, position;
-    int id;
-    double salary;
+    private String name;
+    private int id;
+    private String position;
+    private double salary;
 
-    void input(String name, int id, String position, double salary) {
+    public void input(String name, int id, String position, double salary) {
         this.name = name;
         this.id = id;
         this.position = position;
         this.salary = salary;
     }
 
-    void display() {
+    public void display() {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("Position: " + position);
@@ -27,8 +28,8 @@ class Employee {
 
 class EmployeeMain {
     public static void main(String[] args) {
-        Employee emp = new Employee();
-        emp.input("Taher", 1234567890, "Manager", 100000.0);
-        emp.display();
+        Employee employee = new Employee();
+        employee.input("John Doe", 123456789, "Manager", 100000);
+        employee.display();
     }
 }
