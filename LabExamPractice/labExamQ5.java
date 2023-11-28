@@ -29,7 +29,7 @@ class Employee {
 class EmployeeMain {
     public static void main(String[] args) {
         Employee employee = new Employee();
-        employee.input("Taher", 123456789, "Manager", 100000);
+        employee.input("Taher", 137, "Manager", 3000);
         employee.display();
     }
 }
