@@ -9,6 +9,8 @@ class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    // the setters are not necessary for this problem, but I added them but the
+    // question is dubious
     public void setBalance(double balance) {
         this.balance = balance;
     }
