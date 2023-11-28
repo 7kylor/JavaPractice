@@ -21,18 +21,6 @@ abstract class BankAccount {
         this.balance = balance;
     }
 
-    int getAccountId() {
-        return accountId;
-    }
-
-    String getAccountType() {
-        return accountType;
-    }
-
-    double getBalance() {
-        return balance;
-    }
-
     abstract void calcInterest();
 
 }
