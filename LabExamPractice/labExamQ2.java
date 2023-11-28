@@ -43,7 +43,7 @@ class StudentOperations {
     student1.display();
 
     Student student2 = new Student();
-    student2.setValues("Test", 60, 70, 65, 75);
+    student2.setValues("Test", 17, 13, 5, 01);
     student2.display();
     }
   }
