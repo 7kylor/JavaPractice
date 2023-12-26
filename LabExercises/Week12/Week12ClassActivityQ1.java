@@ -33,7 +33,6 @@ class Week12ClassActivityQ1 {
             if (mobiles[i].price < lowestPriceMobile.price) {
                 lowestPriceMobile = mobiles[i];
             }
-
         }
 
         lowestPriceMobile.display();
