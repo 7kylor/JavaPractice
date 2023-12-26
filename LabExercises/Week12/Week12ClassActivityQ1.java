@@ -27,11 +27,11 @@ class Week12ClassActivityQ1 {
         mobiles[0] = new Mobile("Apple iPhone 15 Pro", 700, 111, "Blue");
         mobiles[1] = new Mobile("Samsung Galaxy S23+", 500, 122, "Black");
         mobiles[2] = new Mobile("Samsung Galaxy S23 Ultra", 800, 220, "Gray");
-        mobiles[3] = new Mobile("Apple iPhone 15 Pro", 400, 90, "Red");
+
 
         int minPrice = mobiles[0].price;
         int minPriceIndex = 0;
-        for (int i = 1; i < mobiles.length; i++) {
+        for (int i = 0; i < mobiles.length; i++) {
             if (mobiles[i].price < minPrice) {
                 minPrice = mobiles[i].price;
                 minPriceIndex = i;
