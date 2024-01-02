@@ -37,6 +37,5 @@ class MainMobile {
         }
         System.out.println("Details of the mobile with the lowest price: ");
         NewMobile[index].Display();
-
     }
 }
