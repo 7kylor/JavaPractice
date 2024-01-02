@@ -24,7 +24,7 @@ class MainMobile {
     public static void main(String[] args) {
         MobileESE[] NewMobile = new MobileESE[3];
         NewMobile[0] = new MobileESE("Samsung", "Black", 5000, 100);
-        NewMobile[1] = new MobileESE("Nokia", "White", 2000, 200);
+        NewMobile[1] = new MobileESE("Nokia", "Green", 2000, 200);
         NewMobile[2] = new MobileESE("Apple", "Red", 3000, 300);
 
         double min = NewMobile[0].price;
