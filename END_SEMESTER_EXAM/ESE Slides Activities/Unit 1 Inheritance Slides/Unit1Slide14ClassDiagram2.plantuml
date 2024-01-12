@@ -41,3 +41,41 @@ Shape <|-- Triangle
 
 @enduml
 
+
+' //// 2nd way    
+
+@startuml
+
+class Shape {
+    +getArea()
+    +getPerimeter()
+}
+
+class Rectangle extends Shape {
+    +getArea()
+    +getPerimeter()
+}
+
+class Square extends Rectangle {
+    +getArea()
+    +getPerimeter()
+}
+
+class Circle extends Ellipse {
+    +getArea()
+    +getPerimeter()
+}
+
+class Ellipse extends Shape  {
+    +getArea()
+    +getPerimeter()
+}
+
+class Triangle extends Shape {
+    +getArea()
+    +getPerimeter()
+}
+
+ 
+
+@enduml
