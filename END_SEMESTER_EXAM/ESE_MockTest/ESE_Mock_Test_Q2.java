@@ -34,3 +34,28 @@ class AudioBook_ESE extends Book_ESE {
         System.out.println("Narrator: " + narrator);
     }
 }
+
+class BookMain_ESE {
+    public static void main(String[] args) {
+        AudioBook_ESE[] audioBooks = new AudioBook_ESE[3];
+
+        audioBooks[0] = new AudioBook_ESE();
+        audioBooks[0].input(1, "Book 1", "Author 1", 100, "Narrator 1");
+
+        audioBooks[1] = new AudioBook_ESE();
+        audioBooks[1].input(2, "Book 2", "Author 2", 200, "Narrator 2");
+
+        audioBooks[2] = new AudioBook_ESE();
+        audioBooks[2].input(3, "Book 3", "Author 3", 300, "Narrator 3");
+
+        int maxIndex = 0;
+        for (int i = 1; i < audioBooks.length; i++) {
+            if (audioBooks[i].length > audioBooks[maxIndex].length) {
+                maxIndex = i;
+            }
+        }
+
+        System.out.println("Audio Book with the highest length");
+        audioBooks[maxIndex].display();
+    }
+}
