@@ -1,4 +1,6 @@
+package ESE_Slides_Activities.Unit1_Inheritance_Slides;
 // d. Create a class called Employee with instance variables name, id, and
+
 // salary, as well as methods to set and get the values of these variables.
 // Then, create a subclass called Manager that adds additional instance
 // variables bonus and teamSize and methods to set and get their values, as well

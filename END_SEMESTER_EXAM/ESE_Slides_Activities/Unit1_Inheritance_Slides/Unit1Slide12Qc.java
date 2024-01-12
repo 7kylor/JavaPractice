@@ -1,4 +1,6 @@
+package ESE_Slides_Activities.Unit1_Inheritance_Slides;
 // c. Create a class called Shape with instance variable color as well as
+
 // methods to set and get the values of these variables. Then, create a subclass
 // called Circle that adds an additional instance variable radius and methods to
 // set and get its value, as well as a method to calculate the area of the

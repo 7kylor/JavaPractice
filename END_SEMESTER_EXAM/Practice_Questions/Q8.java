@@ -1,4 +1,6 @@
+package Practice_Questions;
 // 8. Create a diagram and justify inheritance hierarchy that could be used to
+
 // represent the following classes with appropriate attributes and operations:
 // person, employee, full-time employee, manager, student.
 // Implement the above inheritance hierarchy using JAVA. Write the code for each

@@ -1,3 +1,4 @@
+package Practice_Questions;
 
 // 17.	Create and justify an inheritance hierarchy that could be used to represent the following classes: Animal, Mammal, Bird, Reptile, Dog, Eagle, Snake.
 //  Implement the above inheritance hierarchy using Java. Write the code for each class and include the necessary methods as described below:
