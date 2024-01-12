@@ -15,31 +15,21 @@ This repository contains solutions for the lab exam practice and mock exam quest
 - Polymorphism (Constructor Overloading and Method Overloading)
 - Abstraction (Abstract Classes and Interfaces)
 
-Feel free to create a pull request if you have any changes or new solutions to add. I will review and merge them.
-
 Happy coding! 😊
 
-## How to Contribute
+--------------------------------
 
-1. Fork this repository.
-2. Clone the forked repository to your local machine.
-3. Create a new branch.
-4. Add your solutions.
-5. Commit and push your changes to the new branch.
-6. Create a pull request.
-7. Wait for the pull request to be reviewed and merged. 
-
------------------------------
-
- ## Update End Semester Exam Solutions
+ ## Updated for End Semester Exam 2023-2024
 
  - Directory: `END_SEMESTER_EXAM`  it has :
      - Covered ESE in Slides  Activities 
      - All Practice Questions Solutions 
 
-Exam is on 15th January 2024 9AM - 10:30AM
+Exam is on 15th January 2024 9AM - 10:30AM (Check Your Uni. Email)
+
 
 ## Topics Covered
+
 - Unit 1 - Array Of Objects
 - Unit 1 - Inheritance
 - Unit 2 - Object Oriented Analysis
@@ -50,3 +40,18 @@ Exam is on 15th January 2024 9AM - 10:30AM
 All ESE Slides Questions Including Diagrams and Activities are added in the respective folders with their solutions.
 
 All the best for your exams! 😊
+
+-----------------------------
+
+Feel free to create a pull request if you have any changes or new solutions to add. I will review and merge them.
+
+
+## How to Contribute
+
+1. Fork this repository.
+2. Clone the forked repository to your local machine.
+3. Create a new branch.
+4. Add your solutions.
+5. Commit and push your changes to the new branch.
+6. Create a pull request.
+7. Wait for the pull request to be reviewed and merged. 
