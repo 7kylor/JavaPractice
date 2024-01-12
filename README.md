@@ -1,8 +1,8 @@
-# Java Practice Solutions For : Object Oriented Programming and Modelling(Fall 2023 - F23 COMP 20043)
+# Object Oriented Programming and Modelling(Fall 2023 - F23 COMP 20043)
 
 This repository contains solutions for the lab exam practice and mock exam questions from the MEC Learn course COMP 20043. It also includes solutions for the slides from each chapter/week.
 
-## LAB Exam Information
+## LAB Exam Fall 2023 - 2024
 
 - Lab Exam Date and Time:
     - Session C: 28/11/23 (Tuesday) 3:00 PM to 4:30 PM @ General Lab.
@@ -19,7 +19,7 @@ Happy coding! 😊
 
 --------------------------------
 
- ## Updated for End Semester Exam 2023-2024
+ ## End Semester Exam Fall 2023 - 2024
 
  - Directory: `END_SEMESTER_EXAM`  it has :
      - Covered ESE in Slides  Activities 
