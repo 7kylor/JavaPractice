@@ -1,4 +1,4 @@
-# Java Practice Solutions
+# Java Practice Solutions For : Object Oriented Programming and Modelling(Fall 2023 - F23 COMP 20043)
 
 This repository contains solutions for the lab exam practice and mock exam questions from the MEC Learn course COMP 20043. It also includes solutions for the slides from each chapter/week.
 
