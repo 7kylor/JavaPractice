@@ -66,8 +66,8 @@ class Main {
     public static void main(String[] args) {
         Manager m = new Manager();
         Student s = new Student();
-        m.inputDetails(1, "John");
-        s.inputDetails(2, "Doe");
+        m.inputDetails(1, "Taher");
+        s.inputDetails(2, "Test");
         m.displayDetails();
         m.getSalary();
         m.getBonus();
