@@ -1,4 +1,4 @@
-package ESE_Slides_Activities.Unit1_Inheritance_Slides;
+
 // a. Create a class called Vehicle with instance variables brand and model, as well as methods to set and get the values of these variables. Then, create a subclass called Car that adds an additional instance variable numDoors and methods to set and get its value. Create a Main class , create two objects of Car class and call all the methods.
 
 class Vehicle_ESE_Slides {

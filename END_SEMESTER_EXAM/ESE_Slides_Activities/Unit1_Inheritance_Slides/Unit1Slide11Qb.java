@@ -1,4 +1,4 @@
-package ESE_Slides_Activities.Unit1_Inheritance_Slides;
+
 // b. Create a class called Animal with instance variables name and age, as well as methods to set and get the values of these variables. Then, create a subclass called Dog that adds additional instance variables breed and sound and methods to set and get their values.Create a Main class, create an object of Dog class and call all the methods
 
 class Animal_ESE_Slides {
