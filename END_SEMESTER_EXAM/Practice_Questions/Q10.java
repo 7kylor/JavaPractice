@@ -1,4 +1,4 @@
-package Practice_Questions;
+
 // 10.	Using the correct syntax in java, define a class called Book that contains three data members: bookId, title, and author, and two member functions: void input() to assign input values and void display() to display the values. Appropriate data types are to be chosen.Using the correct syntax in Java, show how a subclass called AudioBook can be derived from the class Book to include additional data members length and narrator. Appropriate data types are to be chosen.
 
 class Book_ESE {

@@ -1,4 +1,4 @@
-package Practice_Questions;
+
 // 9. Using the correct syntax in java, define a class called Vehicle that
 
 // contains 2 data members: vehicleId and vehicleType, and 2 member functions:

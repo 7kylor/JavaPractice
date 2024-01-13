@@ -1,4 +1,3 @@
-package Practice_Questions;
 // 6.	Create a class named Mobile having 4 Instance variables Model, price , weight, color. The class should have a method   Display() which should display all the attributes of the class. The class should also have a one parameterized constructor to initialize all the attributes with values passed from main method.  Create a main class that contains the main method. Create 3 objects of the class Mobile using an array. Initialize all the objects. Display the details of the mobile with the lowest price.
 
 class MobileESE {

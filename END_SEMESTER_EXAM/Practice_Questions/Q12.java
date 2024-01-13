@@ -1,4 +1,4 @@
-package Practice_Questions;
+
 // 12.	Create a class called Employee with instance variables name, id, and salary, as well as methods to set and get the values of these variables. Then, create a subclass called Manager that adds additional instance variables bonus and teamSize and methods to set and get their values, as well as a method to calculate  Bonus and  total salary of the manager. Bonus = 200 OMR if teamSize is more than 50 else bonus is 100 OMR . Total salary is salary + bonus. Create a Main class, create object of Manager class and call all the methods
 
 class Employee_ESE {

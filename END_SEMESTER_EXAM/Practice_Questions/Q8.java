@@ -1,4 +1,4 @@
-package Practice_Questions;
+
 // 8. Create a diagram and justify inheritance hierarchy that could be used to
 
 // represent the following classes with appropriate attributes and operations:
