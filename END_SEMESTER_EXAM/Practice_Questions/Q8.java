@@ -23,7 +23,7 @@
 // instance of the manager class And Create an instance of the student class.
 // Call the methods of these two classes using the objects created.
 
-class Person {
+class PersonESE_PQ {
     int id;
     String name;
 
@@ -38,7 +38,7 @@ class Person {
     }
 }
 
-class Employee extends Person {
+class Employee extends PersonESE_PQ {
     void getSalary() {
         System.out.println("Employee earns salary");
     }
@@ -56,7 +56,7 @@ class Manager extends Employee {
     }
 }
 
-class Student extends Person {
+class Student extends PersonESE_PQ {
     void getMarks() {
         System.out.println("Gets marks for the modules");
     }
