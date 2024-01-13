@@ -1,7 +1,7 @@
 
 // 10.	Using the correct syntax in java, define a class called Book that contains three data members: bookId, title, and author, and two member functions: void input() to assign input values and void display() to display the values. Appropriate data types are to be chosen.Using the correct syntax in Java, show how a subclass called AudioBook can be derived from the class Book to include additional data members length and narrator. Appropriate data types are to be chosen.
 
-class Book_ESE {
+class Book_ESE_PQ10 {
     int bookId;
     String title;
     String author;
@@ -19,7 +19,7 @@ class Book_ESE {
     }
 }
 
-class AudioBook_ESE extends Book_ESE {
+class AudioBook_ESE_PQ10 extends Book_ESE_PQ10 {
     int length;
     String narrator;
 
@@ -38,7 +38,7 @@ class AudioBook_ESE extends Book_ESE {
 
 class MainBook_ESE {
     public static void main(String[] args) {
-        AudioBook_ESE book = new AudioBook_ESE();
+        AudioBook_ESE_PQ10 book = new AudioBook_ESE_PQ10();
         book.input(1, "The Alchemist", "Paulo Coelho", 3, "Jeremy Irons");
         book.display();
     }
