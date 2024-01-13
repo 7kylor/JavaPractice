@@ -1,0 +1,46 @@
+' An Applicant who has the basic information Name, contact details, address submits the application for an academic program in a university. Application includes required data (transcripts, test scores, essays, letters of recommendation) and payment of the application fee. Admissions Committee members evaluates the application and update student status. The committee members name, expertise, review assignments are maintained. The applicant can view the status of his application once the review is completed
+' One Applicant can have many Applications: Applicant submits multiple applications for different programs.
+' One Application belongs to one Applicant: Each application is associated with a specific applicant.
+' One Application can be one Committee Member:
+' One committee Member are assigned for review minimum 2 and maximum of 10 applications
+' Design a class diagram in the scenario. It should show associations among the classes with
+' multiplicity.
+
+@startuml  
+
+skinparam class {
+    BackgroundColor White
+    BorderColor Black
+    ArrowColor Black
+  IconPublicColor Green
+    IconPrivateColor Red
+}
+
+class Applicant {
+    - name: String
+    - contactDetails: String
+    - address: String
+    + submitApplication()
+    + viewApplicationStatus()
+}
+
+class Application {
+    - transcripts: String
+    - testScores: String
+    - essays: String
+    - lettersOfRecommendation: String
+    - applicationFee: Double
+    + updateStatus()
+}
+
+class CommitteeMember {
+    - name: String
+    - expertise: String
+    - reviewAssignments: List<Application>
+}
+
+Applicant "1" -- "0..n" Application
+Application "1" -- "1" Applicant
+Application "1" -- "2..10" CommitteeMember
+
+@enduml
