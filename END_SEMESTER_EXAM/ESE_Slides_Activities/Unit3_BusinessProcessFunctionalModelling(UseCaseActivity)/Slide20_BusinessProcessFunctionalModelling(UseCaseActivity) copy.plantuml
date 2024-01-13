@@ -1,0 +1,45 @@
+' Library Management System:
+' Actors:
+' •Library Member •Librarian •Library System Use Cases: •Search for Books •Borrow Books •Return Books •Reserve Books •Pay Fines
+' •Add Books (for Librarian)
+' •Remove Books (for Librarian)
+' •Update Book Details (for Librarian)
+' In this example, the use case diagram would show the Library Member actor connected to the Search for Books, Borrow Books, Return Books, Reserve Books, and Pay Fines use cases. The Librarian actor would be associated with the Add Books, Remove Books, and Update Book Details use cases. The Library System actor would be connected to all use cases, as it is the central system managing all processes.
+
+@startuml DiagramName
+actor LibraryMember
+actor Librarian
+actor LibrarySystem
+
+rectangle "Library Management System" {
+    LibraryMember -- (Search for Books)
+    LibraryMember -- (Borrow Books)
+    LibraryMember -- (Return Books)
+    LibraryMember -- (Reserve Books)
+    LibraryMember -- (Pay Fines)
+
+    Librarian -- (Add Books)
+    Librarian -- (Remove Books)
+    Librarian -- (Update Book Details)
+
+    LibrarySystem -- (Search for Books)
+    LibrarySystem -- (Borrow Books)
+    LibrarySystem -- (Return Books)
+    LibrarySystem -- (Reserve Books)
+    LibrarySystem -- (Pay Fines)
+    LibrarySystem -- (Add Books)
+    LibrarySystem -- (Remove Books)
+    LibrarySystem -- (Update Book Details)
+
+    (Search for Books) -.-> (Borrow Books) : includes
+    (Borrow Books) -.-> (Return Books) : includes
+    (Borrow Books) -.-> (Reserve Books) : includes
+    (Return Books) -.-> (Pay Fines) : includes
+    (Add Books) -.-> (Remove Books) : includes
+    (Add Books) -.-> (Update Book Details) : includes
+
+    LibraryMember <|-- LibrarySystem
+    Librarian <|-- LibrarySystem
+}
+
+@enduml

@@ -1,0 +1,41 @@
+' Example scenarios with brief descriptions of their use case diagrams:
+' 1.Online Shopping System:
+' Actors:
+' •Customer
+' •Seller
+' •Payment Gateway •Shipping Service Use Cases: •Browse Products •Search Products •Add to Cart •Remove from Cart •Checkout
+' •Make Payment •Ship Order •Track Order
+' •Manage Inventory (for Seller)
+' In this example, the use case diagram would show the Customer actor connected to the Browse Products, Search Products, Add to Cart, Remove from Cart, Checkout, Make Payment, and Track Order use cases. The Seller actor would be connected to the Manage Inventory use case. The Payment Gateway actor would be associated with the Make Payment use case, and the Shipping Service actor would be connected to the Ship Order and Track Order use cases.
+
+ 
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+actor Customer
+actor Seller
+actor "Payment Gateway" as PaymentGateway
+actor "Shipping Service" as ShippingService
+
+rectangle OnlineShoppingSystem {
+    Customer -- (Browse Products)
+    Customer -- (Search Products)
+    Customer -- (Add to Cart)
+    Customer -- (Remove from Cart)
+    Customer -- (Checkout)
+    Customer -- (Make Payment)
+    Customer -- (Track Order)
+    Seller -- (Manage Inventory)
+    PaymentGateway -- (Make Payment)
+    ShippingService -- (Ship Order)
+    ShippingService -- (Track Order)
+
+    (Add to Cart) <|-- (Checkout) : extends
+    (Make Payment) <|.. (Checkout) : includes
+    (Make Payment) -- PaymentGateway : association
+    (Ship Order) <|.. (Track Order) : generalization
+    (Track Order) -- ShippingService : association
+}
+
+@enduml
