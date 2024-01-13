@@ -23,15 +23,13 @@ class MobileESE_PQ {
 class MainMobile {
     public static void main(String[] args) {
         MobileESE_PQ[] NewMobile = new MobileESE_PQ[3];
-        NewMobile[0] = new MobileESE_PQ("Samsung", "Black", 5000, 100);
-        NewMobile[1] = new MobileESE_PQ("Nokia", "Green", 2000, 200);
-        NewMobile[2] = new MobileESE_PQ("Apple", "Red", 8000, 300);
+        NewMobile[0] = new MobileESE_PQ("Samsung", "Black", 50600, 100);
+        NewMobile[1] = new MobileESE_PQ("Nokia", "Green", 2040, 200);
+        NewMobile[2] = new MobileESE_PQ("Apple", "Red", 80660, 300);
 
-        double min = NewMobile[0].price;
         int index = 0;
-        for (int i = 0; i < NewMobile.length; i++) {
-            if (NewMobile[i].price < min) {
-                min = NewMobile[i].price;
+        for (int i = 1; i < NewMobile.length; i++) {
+            if (NewMobile[0].price < NewMobile[i].price) {
                 index = i;
             }
         }
