@@ -10,43 +10,22 @@ class Person {
     - address: String
     - phone: String
     - email: String
-    + Person(name: String, address: String, phone: String, email: String)
-    + getName(): String
-    + getAddress(): String
-    + getPhone(): String
-    + getEmail(): String
-    + setName(name: String): void
-    + setAddress(address: String): void
-    + setPhone(phone: String): void
-    + setEmail(email: String): void
 }
 
 class PartTimeTeacher {
     - hourlyRate: double
-    + PartTimeTeacher(name: String, address: String, phone: String, email: String, hourlyRate: double)
-    + getHourlyRate(): double
-    + setHourlyRate(hourlyRate: double): void
 }
 
 class FullTimeTeacher {
     - salary: double
-    + FullTimeTeacher(name: String, address: String, phone: String, email: String, salary: double)
-    + getSalary(): double
-    + setSalary(salary: double): void
 }
 
 class HOD {
     - allowance: double
-    + HOD(name: String, address: String, phone: String, email: String, allowance: double)
-    + getAllowance(): double
-    + setAllowance(allowance: double): void
 }
 
 class Student {
     - studentID: String
-    + Student(name: String, address: String, phone: String, email: String, studentID: String)
-    + getStudentID(): String
-    + setStudentID(studentID: String): void
 }
 
 Person <|-- PartTimeTeacher
@@ -55,4 +34,3 @@ Person <|-- HOD
 Person <|-- Student
 
 @enduml
-```
