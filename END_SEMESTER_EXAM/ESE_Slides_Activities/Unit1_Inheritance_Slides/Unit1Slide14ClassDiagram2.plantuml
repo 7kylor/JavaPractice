@@ -1,48 +1,7 @@
 ' Create a class diagram and justify an inheritance hierarchy that could be used to represent the following classes : shape, rectangle, square, circle, ellipse, triangle
 
 
-@startuml
-
-class Shape {
-    +getArea()
-    +getPerimeter()
-}
-
-class Rectangle {
-    +getArea()
-    +getPerimeter()
-}
-
-class Square {
-    +getArea()
-    +getPerimeter()
-}
-
-class Circle {
-    +getArea()
-    +getPerimeter()
-}
-
-class Ellipse {
-    +getArea()
-    +getPerimeter()
-}
-
-class Triangle {
-    +getArea()
-    +getPerimeter()
-}
-
-Shape <|-- Rectangle
-Shape <|-- Square
-Shape <|-- Circle
-Shape <|-- Ellipse
-Shape <|-- Triangle
-
-@enduml
-
-
-' //// 2nd way    
+ 
 
 @startuml
 
@@ -50,32 +9,27 @@ class Shape {
     +getArea()
     +getPerimeter()
 }
-
-class Rectangle extends Shape {
-    +getArea()
-    +getPerimeter()
+class Rectangle extends Shape{
+    +getLength()
+    +getBreadth()
 }
 
-class Square extends Rectangle {
-    +getArea()
-    +getPerimeter()
+class Square extends Rectangle{
+    +getSide()
 }
 
 class Circle extends Ellipse {
-    +getArea()
-    +getPerimeter()
+    +getRadius()
 }
 
-class Ellipse extends Shape  {
-    +getArea()
-    +getPerimeter()
+class Ellipse extends Shape{
+    +getMajorAxis()
+    +getMinorAxis()
 }
 
-class Triangle extends Shape {
-    +getArea()
-    +getPerimeter()
+class Triangle extends Shape{
+    +getSide1()
+    +getSide2()
+    +getSide3()
 }
-
- 
-
 @enduml
