@@ -1,0 +1,43 @@
+// 3.
+// a)
+// Explain the role of UML in modeling problem domains and discuss the use case diagram as a
+// powerful tool for capturing system functionalities and user interactions. Provide examples to
+// illustrate your answer.
+// (30 marks)
+// b) Discuss any five elements of ap Activity Diagram and identify the notation used for each of the
+// discussed elements.
+// (5x4=20 marks)
+
+
+// solve the question here
+// UML (Unified Modeling Language) is a general-purpose modeling language used to visualize, specify, construct and document artifacts of a software system. It helps in modeling problem domains and provides a standard way to visualize the design of a system. It is a graphical language that is used to model object-oriented systems.
+// Use case diagram is one of the UML diagrams that helps in capturing the functional requirements of a system by modeling the interactions between the users and the system. It shows the relationship between the actors and the different use cases in a system. Some key elements of a use case diagram include:
+// - Actors: Represent roles of external agents that interact with the system. They are represented as stick figures. Example actors include customer, employee etc.
+// - Use cases: Represent discrete tasks or services provided by the system. They are represented as ovals. Example use cases include place order, view cart etc.
+// - Associations: Connect actors to use cases to show which actors are involved in each use case. They are represented as solid lines.
+// - Generalization: Shows that one actor can be a specialized form of another. It is represented by a dotted line with a hollow arrowhead.
+// - System boundary: Encloses all the use cases and represents the scope of the system. It is represented by a rectangle.
+// Activity diagram is another important UML diagram that helps in modeling the workflows and business processes in a system. Some key elements of an activity diagram include:
+// - Activities: Represent tasks/actions that are performed. They are represented as rounded rectangles.
+// - Actions: Represent atomic/indivisible tasks within an activity. They are represented as rounded rectangles with darker fill color.
+// - Control flows: Show the order of flow from one activity/action to another. They are represented as solid directed lines with open arrowheads.
+//     - Object flows: Show the flow of objects between activities/actions. They are represented as solid lines with filled arrowheads.
+//     - Swimlanes: Used to group related activities. They are represented as partitions separated by a solid vertical line.
+//     - Forks: Used to split control flow into multiple concurrent flows. They are represented as a horizontal line with multiple outward arrows.
+//     - Joins: Used to synchronize concurrent flows into a single flow. They are represented as a horizontal line with multiple inward arrows.
+//     - Decision nodes: Used to represent a decision point in the flow. They are represented as a diamond shape.
+//     - Merge nodes: Used to represent a point where multiple flows converge. They are represented as a diamond shape with multiple inward arrows.
+//     - Initial node: Used to represent the starting point of the flow. It is represented as a solid circle.
+//     Activity Diagram example:
+//     Create a simple activity diagram to model the process of booking a movie ticket online:
+//     Initial node
+    // │   └─ View movie listings ──┐
+    // │                              │
+    // │   └─ Select movie and showtime ──┘    │
+    // │   └─ Enter customer details ──┐           │
+    // │   │                                    │
+    // │   └─ Payment ───────────────┐           │
+    // │   │                              │          │
+    // │   └─ Confirmation ──┘          │
+    // └─ End ──┘
+
